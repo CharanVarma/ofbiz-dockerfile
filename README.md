@@ -15,4 +15,4 @@ docker run -d  --name ofbiz  -p 8443:8443  ofbiz
 
 ```
 
-打开浏览器访问容器的8443 端口 /catalog  
+打开浏览器访问https://{ip_of_container}:8443/catalog, 用户名: admin, 密码: ofbiz
